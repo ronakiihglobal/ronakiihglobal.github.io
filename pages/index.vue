@@ -4,7 +4,7 @@
 	  		<div class="card">
 			  <div class="card-image">
 			    <figure class="image is-4by1">
-			      <img src="~/assets/techstack3.png" />
+			      <img src="~/assets/techstack.png" />
 			    </figure>
 			  </div>
 			  <div class="card-content">
@@ -21,10 +21,26 @@
 			    </div>
 
 			    <div class="content">
-			      Having a six years of experience in web application development with latest technologies like ReactJs, NodeJs, Laravel, VueJs, Micro-services like AWS lambda. Based on my past experience i have delivered awesome applications using best tools and technologies which helps our clients and give awesome and fast user interface to users of applications.
-			      <br>
 			      
+			      Having a six+ years of experience in web application development with latest technologies like 
+
+			      <a target="_blank" href="https://reactjs.org/">ReactJs</a>, 
+			      <a target="_blank" href="https://nodejs.org/">NodeJs</a>, 
+			      <a target="_blank" href="https://laravel.com/">Laravel</a>, 
+			      <a target="_blank" href="https://vuejs.org/">VueJs</a>, 
+
+			      Serverless Micro-services architecture like 
+
+			      <a target="_blank" href="https://aws.amazon.com/lambda/">AWS lambda</a>
+
+			       etc. Based on my past experience i have delivered awesome applications using best tools and technologies which helps our clients in their bussiness and give awesome and fast user experience to the users of application.
+
+			      <br>
+			      <br>
+
+			      From last two years i am performing role of technical lead and software architect at <a href="https://iihglobal.com/">IIHGlobal</a>.
 			    </div>
+
 			  </div>
 			</div>
 		</div>

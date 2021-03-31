@@ -13,7 +13,7 @@ export default {
 			{ hid: 'description', name: 'description', content: '' }
 		],
 		link: [
-			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+			{ rel: 'icon', type: 'image/x-icon', href: '/_nuxt/assets/profile.jpeg?v=1' },
 			{
 			rel: 'stylesheet',
 			href: 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css'
