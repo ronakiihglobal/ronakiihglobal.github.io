@@ -25,7 +25,7 @@
         -->
 
           <div class="navbar-item is-hoverable">
-            <nuxt-link class="navbar-item" to="/">Blogs</nuxt-link>
+            <nuxt-link class="navbar-item" to="/blog/">Blogs</nuxt-link>
           </div>
         </div>
       </div>

@@ -3,6 +3,8 @@ export default {
 		dir: 'docs'
 	},
 
+	modules: ['@nuxt/content'],
+	
 	components: true,
 	
 	head: {
