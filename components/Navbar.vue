@@ -35,6 +35,11 @@
 
 <script>
   export default {
+    watch: {
+      $route() {
+        this.showMobileMenu = false;
+      },
+    },
     data() {
       return {
         showMobileMenu: false

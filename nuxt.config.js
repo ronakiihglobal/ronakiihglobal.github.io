@@ -1,10 +1,12 @@
 export default {
+	target: 'static',
+	
 	generate: {
 		dir: 'docs'
 	},
 
 	modules: ['@nuxt/content'],
-	
+
 	components: true,
 	
 	head: {
