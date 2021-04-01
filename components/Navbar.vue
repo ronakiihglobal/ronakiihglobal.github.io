@@ -1,15 +1,15 @@
 <template>
-  <nav class="navbar is-fixed-top is-primary">
+  <nav class="navbar is-fixed-top is-primary" role="navigation" aria-label="main navigation">
     <div class="container">
       <div class="navbar-brand">
         <nuxt-link class="navbar-item" to="/">Ronak@IIHGlobal</nuxt-link>
-        <button class="button navbar-burger">
+        <button v-on:click="showMobileMenu = !showMobileMenu" class="button navbar-burger" aria-label="menu" aria-expanded="false">
           <span></span>
           <span></span>
           <span></span>
         </button>
       </div>
-      <div class="navbar-menu is-active">
+      <div class="navbar-menu" :class="{ 'is-active': showMobileMenu }">
         <div class="navbar-end">
         
         <!--
@@ -33,7 +33,15 @@
   </nav>
 </template>
 
-
+<script>
+  export default {
+    data() {
+      return {
+        showMobileMenu: false
+      }
+    }
+  }
+</script>
 <style>
 
 .section {
