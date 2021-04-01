@@ -1,4 +1,5 @@
 <template>
+	<div>
 	<section class="section">
 	    <div class="container">
 	  		<div class="card">
@@ -38,11 +39,50 @@
 			      <br>
 			      <br>
 
-			      From last two years i am performing role of technical lead and software architect at <a href="https://iihglobal.com/">IIHGlobal</a>!
+			      From last two years i am performing role of technical lead and software architect at <a href="https://iihglobal.com/">IIHGlobal</a>.
 			    </div>
 
 			  </div>
 			</div>
 		</div>
 	</section>
+
+	<section class="section">
+		<div class="container">
+		  	<h1 class="title">Experience</h1>
+	  		
+	  		<ul>
+		  		
+		  		<li>
+					<h2 class="subtitle">
+						I am working at <strong><a href="https://iihglobal.com/">IIHGlobal</a></strong> since <strong>Jan-2018</strong>. I had joined <strong><a href="https://iihglobal.com/">IIHGlobal</a></strong> as <strong>Laravel developer</strong> and then after together we implemented and delivered awesome web applications using different technologies like ReactJs, VueJs, NodeJs, Python and promoted as <strong>FullStack Developer</strong> and then after promoted as <strong>Technical lead</strong>.
+					</h2>
+		  		</li>
+
+		  		<br>
+
+		  		<li>
+					<h2 class="subtitle">
+						I had started my career as <strong>Jr. Laravel Developer</strong> with <strong><a href="https://www.socialpilot.co/">SocialPilot</a></strong> at <strong>Jan-2016</strong>. During two years i had also worked here with Yii Framework and Nodejs.
+					</h2>
+		  		</li>
+		  	
+		  	</ul>
+	  	</div>
+	</section>
+
+
+	<section class="section">
+		<div class="container">
+		  	<h1 class="title">Education</h1>
+	  
+			<h2 class="subtitle">
+				I had been completed <strong>ME-CSE</strong> from <strong>GTU, GEC Modasa </strong> during <strong>2013-2015</strong>.
+			</h2>
+		  		
+	  	</div>
+	</section>
+
+
+	</div>
 </template>

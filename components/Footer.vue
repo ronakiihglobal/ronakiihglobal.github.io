@@ -2,27 +2,12 @@
 	<footer class="footer">
 	  <div class="content has-text-centered">
 	    <p>
-	      <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-	      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-	      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+	      <strong>Linkedin: </strong><a href="https://www.linkedin.com/in/ronak-patel-995857168">Ronak Patel</a>
+	      <br>
+	      <strong>Email: </strong><a href="mailto:ronak.iihglobal@gmail.com">ronak.iihglobal@gmail.com</a>
+	      <br>
+	      <strong>Mobile Number: </strong><a href="callto:+919558358948">+919558358948</a>
 	    </p>
 	  </div>
-	  {{ repoCount }}
 	</footer>
 </template>
-
-<script>
-	export default {
-		data() {
-			return {
-				"repoCount": 5
-			}
-		},
-
-		async created() {
-			let res = await fetch("https://api.github.com/users/ronakiihglobal/repos") 
-			const repos = await res.json();
-			this.repoCount = repos.length
-		}
-	}
-</script>
