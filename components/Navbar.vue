@@ -2,7 +2,7 @@
   <nav class="navbar is-fixed-top is-primary" role="navigation" aria-label="main navigation">
     <div class="container">
       <div class="navbar-brand">
-        <nuxt-link class="navbar-item" to="/">Ronak@IIHGlobal</nuxt-link>
+        
         <button v-on:click="showMobileMenu = !showMobileMenu" class="button navbar-burger" aria-label="menu" aria-expanded="false">
           <span></span>
           <span></span>
@@ -10,6 +10,11 @@
         </button>
       </div>
       <div class="navbar-menu" :class="{ 'is-active': showMobileMenu }">
+        <div class="navbar-start">
+          <div class="navbar-item is-hoverable">
+            <nuxt-link class="navbar-item" to="/">Ronak@IIHGlobal</nuxt-link>
+          </div>
+        </div>
         <div class="navbar-end">
         
         <!--
