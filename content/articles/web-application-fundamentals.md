@@ -94,4 +94,7 @@ Generally in session based authentication, on successfully user login system wil
 In token based authentication client will call token API and pass username/password in that API, if credentials are valid then system will return access token which is simply long enough random string or JSON token in case of [ JWT ](https://jwt.io/). Access token will have some expiration time or in some case it will be without expire time based on requirements. Once client has access token it can call API using that access token, and server will simply check token and if valid will return/store data based on request type. 
 
 
+For get better understanding on above, you can use developer tool of chrome browser or firefox browser and play with any web applications which your using daily.  
+
+
 Thanks very much for reading and hope now you have basic idea about how web applications works, cheers! 😄
