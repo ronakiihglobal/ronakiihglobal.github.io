@@ -74,11 +74,13 @@
 	<section class="section">
 		<div class="container">
 		  	<h1 class="title">Education</h1>
-	  
-			<h2 class="subtitle">
-				I had been completed <strong>ME-CSE</strong> from <strong>GTU, GEC Modasa </strong> during <strong>2013-2015</strong>.
-			</h2>
-		  		
+	  		<ul>
+		  		<li>
+					<h2 class="subtitle">
+						I had been completed <strong>ME-CSE</strong> from <strong>GTU, GEC Modasa </strong> during <strong>2013-2015</strong>.
+					</h2>
+		  		</li>
+			</ul>
 	  	</div>
 	</section>
 
