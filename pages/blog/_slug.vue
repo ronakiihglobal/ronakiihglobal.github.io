@@ -4,6 +4,7 @@
       const article = await $content('articles', params.slug).fetch()
 
       const articles = await $content('articles')
+      	.where({ published: true })
         .only(['title', 'description', 'img', 'slug', 'author'])
         .sortBy('createdAt', 'asc')
         .fetch()
@@ -31,22 +32,21 @@
 			    <figure class="image is-4by1">
 				  	<img :src="article.img" :alt="article.alt" />
 				</figure>
-				<br>
-				<br>
+				<hr>
+				
 			    <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
 
 			    
 			    <br>
-	    		<nuxt-content :document="article" />
+	    		<nuxt-content :document="article" class="content" />
   			</article>
 
   			<div v-else>
   				
   				<p class="title is-2">Blog Posts</p>
 				    
-				     <br>
-				     <br>
-				     <br>
+				     <hr>
+				     
 
 				    
   				<div class="tile is-ancestor">

@@ -36,8 +36,7 @@
 
 			       etc. Based on my past experience i have delivered awesome applications using best tools and technologies which helps our clients in their bussiness and give awesome and fast user experience to the users of application.
 
-			      <br>
-			      <br>
+			      <hr>
 
 			      From last two years i am performing role of technical lead and software architect at <a href="https://iihglobal.com/">IIHGlobal</a>.
 			    </div>
