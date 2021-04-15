@@ -3,7 +3,7 @@ title: Web application fundamentals
 description: The fundamentals of web applications and basic description.
 img: Basic idea about apps.png
 alt: The fundamentals of web applications and basic description.
-published: false
+published: true
 ---
 
 <p class="title is-4">Web application fundamentals</p>
