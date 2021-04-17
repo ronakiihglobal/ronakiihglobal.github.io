@@ -1,5 +1,38 @@
 <script>
   export default {
+
+  	head() {
+  		
+		if(typeof this.article.updatedAt == 'undefined'){
+			
+			return {
+				title: "Blogs",
+		        meta: [
+		          {
+		            hid: 'description',
+		            name: 'description',
+		            content: "Blogs list"
+		          }
+		        ]
+			}
+	
+		}else{
+
+			return {
+		        title: this.article.title,
+		        meta: [
+		          {
+		            hid: 'description',
+		            name: 'description',
+		            content: this.article.description
+		          }
+		        ]
+	      	}
+		}
+    },
+
+
+
     async asyncData({ $content, params }) {
       const article = await $content('articles', params.slug).fetch()
 
