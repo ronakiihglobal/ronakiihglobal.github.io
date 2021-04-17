@@ -6,12 +6,12 @@
 		if(typeof this.article.updatedAt == 'undefined'){
 			
 			return {
-				title: "Blogs",
+				title: "Blog Posts",
 		        meta: [
 		          {
 		            hid: 'description',
 		            name: 'description',
-		            content: "Blogs list"
+		            content: "Blog Posts"
 		          }
 		        ]
 			}
