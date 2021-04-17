@@ -30,7 +30,7 @@
   				<br>
 	  			
 			    <figure class="image is-4by1">
-				  	<img :src="article.img" :alt="article.alt" />
+				  	<img :src="`/blog/${article.img}`" :alt="article.alt" />
 				</figure>
 				<hr>
 				
